@@ -1,0 +1,25 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../css/test.css">
+</head>
+<body>
+
+
+ <form method="POST" action="http://localhost:8080/emoticon">
+   
+   <label path="userId">Enter your user-name</label>
+			<input type="text" name="userId" /><br>
+			<label path="date">Please enter your date</label>
+			<input type="text" name="date" /><br>
+			
+    <p>Now, with CSS3: </p>
+    <div class="cc-selector">
+        <input id="like" type="radio" name="emoticon" value="1" />
+        <label class="drinkcard-cc like" for="like"></label>
+        <input id="clueless" type="radio" name="emoticon" value="2" />
+        <label class="drinkcard-cc clueless"for="clueless"></label>
+    </div>
+	<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
